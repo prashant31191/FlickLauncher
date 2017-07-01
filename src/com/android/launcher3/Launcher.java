@@ -2166,9 +2166,9 @@ public class Launcher extends Activity
         mHandler.removeMessages(0);
         mWorkspace.removeCallbacks(mBuildLayersRunnable);
         mWorkspace.removeFolderListeners();
-        if(mHomeWatcher != null) {
+        /*if(mHomeWatcher != null) {
             mHomeWatcher.stopWatch();
-        }
+        }*/
 
         // Stop callbacks from LauncherModel
         // It's possible to receive onDestroy after a new Launcher activity has

@@ -2229,6 +2229,12 @@ public final class Utilities {
         }
     }
 
+    public static boolean doCheckPROVersion(Context context)
+    {
+        System.out.print("====doCheckPROVersion=========");
+        return true;
+    }
+
 
     private static boolean isPackageExisted(Context context, String targetPackage){
         PackageManager pm=context.getPackageManager();
